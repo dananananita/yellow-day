@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f1e7" />
+    <meta
+      name="description"
+      content="Flores amarillas, música y un pequeño detalle para Danna. 21 de septiembre de 2026."
+    />
+    <title>Para Danna · Yellow Day</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23f5f1e7'/%3E%3Cg fill='%23e7b735'%3E%3Cellipse cx='20' cy='12' rx='5' ry='9'/%3E%3Cellipse cx='20' cy='28' rx='5' ry='9'/%3E%3Cellipse cx='12' cy='20' rx='9' ry='5'/%3E%3Cellipse cx='28' cy='20' rx='9' ry='5'/%3E%3C/g%3E%3Ccircle cx='20' cy='20' r='5' fill='%23312e24'/%3E%3C/svg%3E"
+    />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#hero-title">Ir al contenido</a>
+    <div class="reading-progress" aria-hidden="true"></div>
+    <div class="journey-bar" hidden>
+      <button class="journey-back" type="button" aria-label="Volver a la escena anterior">
+        ← Volver
+      </button>
+      <span class="journey-position" aria-live="polite"></span>
+    </div>
+    <main>
+      <section class="hero is-current" id="portada" aria-labelledby="hero-title">
+        <header class="edition">
+          <span>YELLOW DAY <span class="tiny-flower" aria-hidden="true">✳</span></span
+          ><span>21 · 09 · 2026</span>
+        </header>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">UN PEQUEÑO DETALLE, A MI MANERA</p>
+            <h1 id="hero-title">Oye, <em>Danna</em></h1>
+            <p class="hero-lead">Hoy tocaban<br />flores amarillas.</p>
+            <p class="muted">
+              Pero mandar solo una flor<br class="desktop-break" />
+              se quedaba un poco corto.
+            </p>
+            <button class="button primary" id="open-first" aria-controls="first-message">
+              Abrir mis flores <span aria-hidden="true">→</span>
+            </button>
+            <div class="first-response" id="first-message" aria-live="polite"></div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="sun-disc"></div>
+            <div class="orbit"></div>
+            <span class="art-label">a little bit of yellow</span>
+            <div class="flower flower-hero is-bud" data-flower="main"></div>
+            <div class="flower flower-side" data-flower="small"></div>
+            <span class="petal petal-one"></span><span class="petal petal-two"></span>
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <span>FLORES + MÚSICA + UN POCO DE TI</span
+          ><span id="hero-cue">TODO EMPIEZA CON UNA FLOR</span>
+        </div>
+      </section>
+      <section class="intro section" id="intro" aria-labelledby="intro-title">
+        <p class="eyebrow">EL PLAN ERA SIMPLE</p>
+        <h2 id="intro-title">No quería llenar esto<br />solamente de <em>flores.</em></h2>
+        <p>Así que mejor junté algunas cosas que van un poco más contigo.</p>
+        <div class="interest-tags">
+          <span>♫ &nbsp; Música</span><span>⌁ &nbsp; Conciertos</span
+          ><span>☆ &nbsp; One Direction</span><span>✳ &nbsp; Flores amarillas</span>
+        </div>
+        <p class="welcome">Bienvenida a tu Yellow Day.</p>
+        <div class="scene-actions">
+          <button class="button primary" data-next>
+            Descubrir mi setlist <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      </section>
+      <section class="setlist-section section" id="setlist" aria-labelledby="setlist-title">
+        <div class="setlist-layout">
+          <div class="setlist-intro reveal">
+            <p class="eyebrow">SUBE UN POCO EL VOLUMEN</p>
+            <h2 id="setlist-title">DANNA'S<br /><span>SETLIST</span></h2>
+            <p class="setlist-date">September 21, 2026</p>
+            <div class="ticket" aria-hidden="true">
+              <span>YELLOW DAY</span><strong>ADMIT ONE</strong>
+              <div class="barcode"></div>
+              <small>21.09.26 &nbsp; / &nbsp; D</small>
+            </div>
+          </div>
+          <div class="setlist-paper reveal">
+            <div class="paper-meta">
+              <span>THE SETLIST</span><span>4 TRACKS / JUST FOR YOU</span>
+            </div>
+            <p class="setlist-hint">Un track a la vez. Lo mejor viene después.</p>
+            <details class="track" open>
+              <summary>
+                <span class="track-number">01</span
+                ><span class="track-title"><span class="sr-only">TRACK 01 — </span>Music first</span
+                ><span class="track-toggle" aria-hidden="true">+</span>
+              </summary>
+              <div class="track-body">
+                <p>
+                  Porque hacer algo inspirado en ti sin meter música no tenía demasiado sentido.
+                </p>
+                <div class="mini-eq" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+              </div>
+            </details>
+            <details class="track" data-track="concert">
+              <summary>
+                <span class="track-number">02</span
+                ><span class="track-title"
+                  ><span class="sr-only">TRACK 02 — </span>Concert mode</span
+                ><span class="track-toggle" aria-hidden="true">+</span>
+              </summary>
+              <div class="track-body">
+                <p>
+                  Luces, canciones, entradas, gritos y ese momento en el que empieza la canción que
+                  estabas esperando.
+                </p>
+                <span class="track-extra">LIGHTS ON. WORLD OFF.</span>
+              </div>
+            </details>
+            <details class="track" data-track="yellow">
+              <summary>
+                <span class="track-number">03</span
+                ><span class="track-title"
+                  ><span class="sr-only">TRACK 03 — </span>A little bit of yellow</span
+                ><span class="track-toggle" aria-hidden="true">+</span>
+              </summary>
+              <div class="track-body">
+                <p>Porque al final hoy la excusa eran las flores amarillas.</p>
+                <div class="track-sunflower" aria-hidden="true"><span class="sunflower-glow"></span><div class="flower" data-flower="sunflower"></div></div>
+              </div>
+            </details>
+            <details class="track" data-track="surprise">
+              <summary>
+                <span class="track-number">04</span
+                ><span class="track-title"
+                  ><span class="sr-only">TRACK 04 — </span>Something familiar…</span
+                ><span class="track-toggle" aria-hidden="true">+</span>
+              </summary>
+              <div class="track-body">
+                <p>Creo que falta algo.</p>
+                <p class="surprise" id="surprise" aria-live="polite"></p>
+                <button class="corner-link button primary" data-next hidden>
+                  Pasar al One Direction Corner <span aria-hidden="true">→</span>
+                </button>
+              </div>
+            </details>
+            <div class="scene-actions track-actions">
+              <button class="button secondary" id="next-track">
+                Siguiente track <span aria-hidden="true">→</span>
+              </button>
+            </div>
+            <div class="paper-footer">
+              <span>NO SKIPS.</span><span>✳</span><span>21 SEPT 2026</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="music-section section" id="one-direction" aria-labelledby="music-title">
+        <div class="stage-light light-one" aria-hidden="true"></div>
+        <div class="stage-light light-two" aria-hidden="true"></div>
+        <div class="music-top">
+          <span class="eyebrow">ONE DIRECTION CORNER</span
+          ><span class="live-label"><i></i> A LITTLE LOUDER</span>
+        </div>
+        <div class="music-layout">
+          <div class="music-copy reveal">
+            <h2 id="music-title">
+              One<br /><em>Direction</em><span class="music-star" aria-hidden="true">✦</span>
+            </h2>
+            <p>Ok, no ponerlos a ellos sería too much.</p>
+            <figure class="concert-photo">
+              <div class="photo-header"><span>ONE DIRECTION / LIVE</span><span>★</span></div>
+              <img
+                src="assets/images/one-direction.webp"
+                alt="Los cinco integrantes de One Direction en concierto en Glasgow, 2013"
+                width="720"
+                height="378"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>
+                <a
+                  href="https://commons.wikimedia.org/wiki/File:One_Direction_2013.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Foto: Fiona McKinlay</a
+                >
+                ·
+                <a
+                  href="https://creativecommons.org/licenses/by-sa/2.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >CC BY-SA 2.0</a
+                ><span>Imagen adaptada</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="player reveal" aria-label="Reproductor de One Direction">
+            <div class="player-top">
+              <span>NOW PLAYING</span><span class="player-count">01 / 06</span>
+            </div>
+            <div class="record-area" aria-hidden="true">
+              <div class="record">
+                <div class="record-label">
+                  <span>1D</span><small>YELLOW DAY<br />SESSIONS</small>
+                </div>
+              </div>
+              <div class="record-star">✦</div>
+              <div class="record-caption">SIDE A<br />21.09.26</div>
+            </div>
+            <div class="song-info">
+              <div>
+                <p class="artist">ONE DIRECTION</p>
+                <h3 id="song-title" aria-live="polite">Best Song Ever</h3>
+              </div>
+              <div class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <audio id="music-audio" preload="none"></audio>
+            <div class="seek-area">
+              <label class="sr-only" for="song-seek">Posición de la canción</label>
+              <input id="song-seek" type="range" min="0" max="100" step="1" value="0" disabled aria-valuetext="0:00" />
+              <div class="timestamps"><span id="elapsed">0:00</span><span id="duration">—:—</span></div>
+            </div>
+            <div class="player-controls">
+              <button id="previous-song" class="icon-button" aria-label="Canción anterior">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 5v14M19 5 8 12l11 7Z" />
+                </svg></button>
+              <button id="play-pause" type="button" aria-label="Reproducir Best Song Ever" aria-pressed="false">
+                <svg class="play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7Z" /></svg>
+                <svg class="pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3v14H7zM14 5h3v14h-3z" /></svg>
+              </button>
+              <button id="next-song" class="icon-button" aria-label="Canción siguiente">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M19 5v14M5 5l11 7-11 7Z" />
+                </svg>
+              </button>
+            </div>
+            <p id="audio-status" class="audio-status" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="favorites reveal">
+          <div>
+            <p>Hay gustos que simplemente se quedan con los años.</p>
+            <p>Parece que One Direction es uno de esos.</p>
+          </div>
+          <div class="favorite-badges">
+            <div><span>NIALL</span><span>LOUIS</span><span>HARRY</span><span>LIAM</span><span>ZAYN</span></div>
+            <p>Sí, ellos también tenían que aparecer.</p>
+          </div>
+        </div>
+        <button class="back-button" id="back-button" data-next>
+          Volver al amarillo <span aria-hidden="true">→</span>
+        </button>
+      </section>
+      <section class="back-yellow section" id="back-to-yellow" aria-labelledby="yellow-title">
+        <div class="return-petals" aria-hidden="true">
+          <span class="petal"></span><span class="petal"></span><span class="petal"></span>
+        </div>
+        <div class="reveal">
+          <p>Casi nos olvidamos del tema principal…</p>
+          <h2 id="yellow-title">Las flores <em>amarillas.</em></h2>
+          <span class="yellow-mark" aria-hidden="true">✳</span>
+          <div class="scene-actions">
+            <button class="button primary" data-next>
+              Todavía hay algo más <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="things-section section" id="danna-things" aria-labelledby="things-title">
+        <div class="things-heading reveal">
+          <p class="eyebrow">PEQUEÑAS COSAS, MUY TÚ</p>
+          <h2 id="things-title">A few very<br /><em>Danna things</em></h2>
+        </div>
+        <div class="things-grid">
+          <article class="thing reveal">
+            <span class="thing-art music-icon" aria-hidden="true">♫</span
+            ><span class="thing-index">01 /</span>
+            <h3>MUSIC</h3>
+            <p>Básicamente obligatoria.</p>
+          </article>
+          <article class="thing reveal">
+            <span class="thing-art ticket-icon" aria-hidden="true">ADMIT<br />ONE</span
+            ><span class="thing-index">02 /</span>
+            <h3>CONCERTS</h3>
+            <p>Una de esas cosas que claramente disfrutas de verdad.</p>
+          </article>
+          <article class="thing reveal">
+            <span class="thing-art direction-icon" aria-hidden="true">1D<span>★</span></span
+            ><span class="thing-index">03 /</span>
+            <h3>ONE DIRECTION</h3>
+            <p>Evidentemente tenían que aparecer.</p>
+          </article>
+          <article class="thing cristal reveal">
+            <img
+              class="thing-art cristal-crest"
+              src="assets/images/sporting-cristal.webp"
+              alt="Escudo oficial del Club Sporting Cristal"
+              width="80"
+              height="76"
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="thing-index">04 /</span>
+            <h3>SPORTING CRISTAL</h3>
+            <p>Esto tampoco necesitaba demasiada explicación.</p>
+          </article>
+        </div>
+        <div class="scene-actions">
+          <button class="button primary" data-next>
+            Unas flores más <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      </section>
+      <section class="garden-section section" id="jardin" aria-labelledby="garden-title">
+        <div class="garden-copy reveal">
+          <h2 id="garden-title">Creo que todavía faltaban<br />algunas <em>flores.</em></h2>
+          <button class="button secondary" id="add-flower" aria-controls="garden-status">
+            Añadir flores <span aria-hidden="true">+</span>
+          </button>
+          <p id="garden-status" class="garden-status" aria-live="polite">
+            Un pequeño jardín, de a una flor.
+          </p>
+        </div>
+        <div class="garden-scene" id="garden-scene" aria-hidden="true">
+          <span class="ground-line"></span>
+        </div>
+      </section>
+      <section
+        class="final-flower-section section"
+        id="ultima-flor"
+        aria-labelledby="final-flower-title"
+      >
+        <div class="final-flower-copy reveal">
+          <p class="eyebrow">LAS QUE CUENTAN</p>
+          <h2 id="final-flower-title">Un último <em>ramo.</em></h2>
+          <p>Estas sí cuentan como las oficiales.</p>
+          <button class="button primary" id="open-final" aria-controls="final-flower-message">
+            Abrir el ramo <span aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <div class="final-scene">
+          <div class="final-halo" aria-hidden="true"></div>
+          <div class="bouquet" aria-hidden="true">
+            <div class="flower final-flower bouquet-left is-bud" data-flower="sunflower"></div>
+            <div class="flower final-flower bouquet-right is-bud" data-flower="sunflower"></div>
+            <div class="flower final-flower bouquet-middle-left is-bud" data-flower="sunflower"></div>
+            <div class="flower final-flower bouquet-middle-right is-bud" data-flower="sunflower"></div>
+            <div class="flower final-flower bouquet-center is-bud" data-flower="sunflower"></div>
+          </div>
+          <div class="final-petals" aria-hidden="true"></div>
+        </div>
+        <div id="final-flower-message" class="final-flower-message" aria-live="polite"></div>
+      </section>
+      <section class="letter-section section" id="mensaje" aria-labelledby="letter-title">
+        <div class="letter reveal">
+          <span class="letter-star" aria-hidden="true">✳</span>
+          <p class="eyebrow">21 DE SEPTIEMBRE DE 2026</p>
+          <h2 id="letter-title">Feliz día de las flores<br />amarillas, Danna.</h2>
+          <div class="letter-body">
+            <p>
+              La verdad, no sabía si alguien más te iba a dar flores hoy, ni siquiera si este día te
+              importaba mucho, pero igual pensé que podía ser un lindo detalle.
+            </p>
+            <p>
+              Y ya que iba a hacer algo, no quería que fueran simplemente unas flores y ya. Así que
+              terminé mezclando flowers, música, conciertos y, obviamente, un poquito de One
+              Direction.
+            </p>
+            <p>Espero que te haya gustado. :)</p>
+            <p class="signature">— Samuel</p>
+          </div>
+          <div class="letter-flower flower" data-flower="letter" aria-hidden="true"></div>
+        </div>
+        <footer><span>Happy Yellow Day</span><span>fin.</span></footer>
+      </section>
+    </main>
+    <noscript
+      ><p class="noscript">
+        Para abrir las flores y usar el reproductor, activa JavaScript en tu navegador.
+      </p></noscript
+    >
+  </body>
+</html>
