@@ -239,12 +239,13 @@ em {
 }
 .art-label {
   position: absolute;
-  top: 8%;
+  top: auto;
+  bottom: 7%;
   right: 2%;
   font-family: var(--serif);
   font-style: italic;
   font-size: 1.15rem;
-  transform: rotate(12deg);
+  transform: rotate(-6deg);
   z-index: 2;
 }
 
@@ -437,8 +438,9 @@ em {
     width: 42%;
   }
   .art-label {
-    top: 24%;
-    right: -1%;
+    top: auto;
+    bottom: 7%;
+    right: 0;
     font-size: 0.85rem;
   }
   
@@ -2176,4 +2178,13 @@ html:not(.js) .journey-bar {
   .scene-actions .button {
     max-width: 100%;
   }
+}
+
+/* Drawn flowers keep their yellow palette across mobile platforms. */
+.flower-symbol {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.13em;
+  flex-shrink: 0;
 }
