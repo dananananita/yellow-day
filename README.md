@@ -49,4 +49,11 @@ README.md
 
 Comprobada la reproducción de los seis MP3 en Chrome, la pausa, el avance por la canción, el cambio de pistas y el paso automático a la siguiente. El recorrido progresivo conserva los cambios de diseño anteriores. No se ha probado esta versión en un iPhone físico ni en Safari.
 
-El paquete está listo para publicar; no se ha creado un repositorio ni realizado una publicación externa.
+## Enlaces y futuras ediciones
+
+- Web: https://dananananita.github.io/yellow-day/
+- Repositorio: https://github.com/dananananita/yellow-day
+
+Para cambiar textos, abre `index.html` en GitHub y pulsa el lápiz de edición. El diseño está en `css/styles.css` y las interacciones en `js/script.js`. Guarda con **Commit changes** en la rama `main`; GitHub Pages publicará la actualización conservando el mismo enlace. Las canciones y las imágenes están dentro de `assets/`.
+
+Configuración de publicación: **Settings → Pages → Deploy from a branch → main → /(root)**. Solo quienes tengan permiso para escribir en el repositorio pueden editarlo; el enlace público sirve para visitar la página.
